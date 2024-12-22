@@ -1,0 +1,84 @@
+.App {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  .weather-info {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .weather-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Chart styles */
+  .chart-container {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+  
+  @media (max-width: 600px) {
+    .App {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    h2 {
+      font-size: 1.4em;
+    }
+  
+    .weather-info p {
+      font-size: 16px;
+    }
+  
+    button, input {
+      font-size: 14px;
+    }
+  }
+  
